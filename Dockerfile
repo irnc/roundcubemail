@@ -1,7 +1,7 @@
 FROM debian:latest
 MAINTAINER Alex Brandt <alunduil@alunduil.com>
 
-EXPOSE 80 443
+EXPOSE 443 80
 
 RUN apt-get -qq update
 RUN apt-get install -qq apache2-mpm-event
